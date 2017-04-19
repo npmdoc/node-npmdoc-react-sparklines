@@ -1,9 +1,14 @@
-# api documentation for  [react-sparklines (v1.6.0)](https://github.com/borisyankov/react-sparklines#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-react-sparklines.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-react-sparklines) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-react-sparklines.svg)](https://travis-ci.org/npmdoc/node-npmdoc-react-sparklines)
+# npmdoc-react-sparklines
+
+#### api documentation for  [react-sparklines (v1.6.0)](https://github.com/borisyankov/react-sparklines#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-react-sparklines.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-react-sparklines) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-react-sparklines.svg)](https://travis-ci.org/npmdoc/node-npmdoc-react-sparklines)
+
 #### Beautiful and expressive Sparklines component for React
 
-[![NPM](https://nodei.co/npm/react-sparklines.png?downloads=true)](https://www.npmjs.com/package/react-sparklines)
+[![NPM](https://nodei.co/npm/react-sparklines.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/react-sparklines)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-react-sparklines/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-react-sparklines_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-react-sparklines/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-react-sparklines/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-react-sparklines/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-react-sparklines/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-react-sparklines/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-react-sparklines/build/screenCapture.npmPackageListing.svg)
 
@@ -18,7 +23,6 @@
 {
     "author": {
         "name": "Boris Yankov",
-        "email": "borisyankov@gmail.com",
         "url": "https://github.com/borisyankov"
     },
     "bugs": {
@@ -72,8 +76,7 @@
     "main": "build/index.js",
     "maintainers": [
         {
-            "name": "borisyankov",
-            "email": "borisyankov@gmail.com"
+            "name": "borisyankov"
         }
     ],
     "name": "react-sparklines",
@@ -82,7 +85,6 @@
         "react": "*",
         "react-dom": "*"
     },
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/borisyankov/react-sparklines.git"
@@ -97,121 +99,6 @@
     },
     "version": "1.6.0"
 }
-```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module react-sparklines](#apidoc.module.react-sparklines)
-1.  [function <span class="apidocSignatureSpan">react-sparklines.</span>Sparklines (props)](#apidoc.element.react-sparklines.Sparklines)
-1.  [function <span class="apidocSignatureSpan">react-sparklines.</span>SparklinesBars ()](#apidoc.element.react-sparklines.SparklinesBars)
-1.  [function <span class="apidocSignatureSpan">react-sparklines.</span>SparklinesCurve ()](#apidoc.element.react-sparklines.SparklinesCurve)
-1.  [function <span class="apidocSignatureSpan">react-sparklines.</span>SparklinesLine ()](#apidoc.element.react-sparklines.SparklinesLine)
-1.  [function <span class="apidocSignatureSpan">react-sparklines.</span>SparklinesNormalBand ()](#apidoc.element.react-sparklines.SparklinesNormalBand)
-1.  [function <span class="apidocSignatureSpan">react-sparklines.</span>SparklinesReferenceLine ()](#apidoc.element.react-sparklines.SparklinesReferenceLine)
-1.  [function <span class="apidocSignatureSpan">react-sparklines.</span>SparklinesSpots ()](#apidoc.element.react-sparklines.SparklinesSpots)
-
-
-
-# <a name="apidoc.module.react-sparklines"></a>[module react-sparklines](#apidoc.module.react-sparklines)
-
-#### <a name="apidoc.element.react-sparklines.Sparklines"></a>[function <span class="apidocSignatureSpan">react-sparklines.</span>Sparklines (props)](#apidoc.element.react-sparklines.Sparklines)
-- description and source-code
-```javascript
-function Sparklines(props) {
-	        _classCallCheck(this, Sparklines);
-
-	        return _possibleConstructorReturn(this, Object.getPrototypeOf(Sparklines).call(this, props));
-	    }
-```
-- example usage
-```shell
-n/a
-```
-
-#### <a name="apidoc.element.react-sparklines.SparklinesBars"></a>[function <span class="apidocSignatureSpan">react-sparklines.</span>SparklinesBars ()](#apidoc.element.react-sparklines.SparklinesBars)
-- description and source-code
-```javascript
-function SparklinesBars() {
-	        _classCallCheck(this, SparklinesBars);
-
-	        return _possibleConstructorReturn(this, Object.getPrototypeOf(SparklinesBars).apply(this, arguments));
-	    }
-```
-- example usage
-```shell
-n/a
-```
-
-#### <a name="apidoc.element.react-sparklines.SparklinesCurve"></a>[function <span class="apidocSignatureSpan">react-sparklines.</span>SparklinesCurve ()](#apidoc.element.react-sparklines.SparklinesCurve)
-- description and source-code
-```javascript
-function SparklinesCurve() {
-	        _classCallCheck(this, SparklinesCurve);
-
-	        return _possibleConstructorReturn(this, Object.getPrototypeOf(SparklinesCurve).apply(this, arguments));
-	    }
-```
-- example usage
-```shell
-n/a
-```
-
-#### <a name="apidoc.element.react-sparklines.SparklinesLine"></a>[function <span class="apidocSignatureSpan">react-sparklines.</span>SparklinesLine ()](#apidoc.element.react-sparklines.SparklinesLine)
-- description and source-code
-```javascript
-function SparklinesLine() {
-	        _classCallCheck(this, SparklinesLine);
-
-	        return _possibleConstructorReturn(this, Object.getPrototypeOf(SparklinesLine).apply(this, arguments));
-	    }
-```
-- example usage
-```shell
-n/a
-```
-
-#### <a name="apidoc.element.react-sparklines.SparklinesNormalBand"></a>[function <span class="apidocSignatureSpan">react-sparklines.</span>SparklinesNormalBand ()](#apidoc.element.react-sparklines.SparklinesNormalBand)
-- description and source-code
-```javascript
-function SparklinesNormalBand() {
-	        _classCallCheck(this, SparklinesNormalBand);
-
-	        return _possibleConstructorReturn(this, Object.getPrototypeOf(SparklinesNormalBand).apply(this, arguments));
-	    }
-```
-- example usage
-```shell
-n/a
-```
-
-#### <a name="apidoc.element.react-sparklines.SparklinesReferenceLine"></a>[function <span class="apidocSignatureSpan">react-sparklines.</span>SparklinesReferenceLine ()](#apidoc.element.react-sparklines.SparklinesReferenceLine)
-- description and source-code
-```javascript
-function SparklinesReferenceLine() {
-	        _classCallCheck(this, SparklinesReferenceLine);
-
-	        return _possibleConstructorReturn(this, Object.getPrototypeOf(SparklinesReferenceLine).apply(this, arguments));
-	    }
-```
-- example usage
-```shell
-n/a
-```
-
-#### <a name="apidoc.element.react-sparklines.SparklinesSpots"></a>[function <span class="apidocSignatureSpan">react-sparklines.</span>SparklinesSpots ()](#apidoc.element.react-sparklines.SparklinesSpots)
-- description and source-code
-```javascript
-function SparklinesSpots() {
-	        _classCallCheck(this, SparklinesSpots);
-
-	        return _possibleConstructorReturn(this, Object.getPrototypeOf(SparklinesSpots).apply(this, arguments));
-	    }
-```
-- example usage
-```shell
-n/a
 ```
 
 
